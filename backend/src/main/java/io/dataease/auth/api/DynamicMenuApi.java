@@ -14,6 +14,7 @@ import java.util.List;
 @ApiSupport(order = 20)
 @RequestMapping("/api/dynamicMenu")
 public interface DynamicMenuApi {
+    
 
     /**
      * 根据heads中获取的token 获取username 获取对应权限的菜单
